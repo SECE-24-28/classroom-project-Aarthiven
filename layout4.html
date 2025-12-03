@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Layouts</title>
+<meta charset="utf-8">
+<style type="text/css">
+*
+{
+margin:0px;
+padding:0px;
+}
+#main
+{
+width:60%;
+margin:auto;
+font-family:arial;
+}
+#parent
+{
+width:100%;
+display:flex;
+min-height:100px;
+flex-direction:row;
+margin-bottom:10px;
+}
+#logdiv
+{
+background-color:lightgrey;
+width:50%;
+min-height:30px;
+line-height:30px;
+padding:20px;
+box-sizing:border-box;
+}
+#navdiv
+{
+background-color:lightgrey;
+width:50%;
+min-height:30px;
+line-height:30px;
+padding:20px;
+box-sizing:border-box;
+
+}
+.parent1
+{
+min-height:100px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+.box
+{
+width:20%;
+min-height:30px;
+line-height:30px;
+background-color:lightgrey;
+}
+.parent2
+{
+margin-top:10px;
+min-height:100px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+.parent3
+{
+margin-top:10px;
+min-height:100px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+.parent4
+{
+margin-top:10px;
+min-height:100px;
+width:100%;
+display:flex;
+justify-content:space-between;
+}
+#boxparent
+{
+margin-top:10px;
+width:100%;
+min-height:100px;
+display:flex;
+justify-content:space-between;
+}
+.box1
+{
+width:30%;
+background-color:lightgrey;
+min-height:100px;
+line-height:100px;
+text-align:center;
+}
+#footer
+{
+margin-top:10px;
+width:100%;
+background-color:lightgrey;
+min-height:50px;
+line-height:50px;
+text-align:center;
+}
+
+
+</style>
+</head>
+<div id="main">
+
+<div id="parent">
+<div id="logdiv">
+Login
+</div>
+<div id="navdiv"> 
+Navigation
+</div>
+</div>
+<div class="parent1">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div class="parent2">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div class="parent3">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+<div class="parent4">
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+</div>
+
+
+<div id="boxparent">
+<div class="box1">Box1</div>
+<div class="box1">Box2</div>
+<div class="box1">Box3</div>
+</div>
+
+<div id="footer">
+Footer
+</div>
+
+</div>
+
+<body>
