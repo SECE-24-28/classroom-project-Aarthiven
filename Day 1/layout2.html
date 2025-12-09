@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Layouts</title>
+<meta charset="utf-8">
+<style type="text/css">
+*
+{
+margin:0px;
+padding:0px;
+
+}
+#parent
+{
+width:100%;
+display:flex;
+min-height:100px;
+flex-direction:row;
+margin-bottom:10px;
+}
+#logdiv
+{
+background-color:lightgrey;
+width:50%;
+min-height:30px;
+line-height:30px;
+padding:20px;
+box-sizing:border-box;
+}
+#navdiv
+{
+background-color:lightgrey;
+width:50%;
+min-height:30px;
+line-height:30px;
+padding:20px;
+box-sizing:border-box;
+
+}
+#headdiv
+{
+background-color:lightgrey;
+width:100%;
+min-height:80px;
+line-height:80px;
+text-align:center;
+}
+#introdiv
+{
+margin-top:10px;
+background-color:lightgrey;
+width:100%;
+min-height:70px;
+line-height:70px;
+text-align:center;
+}
+#parent2
+{
+margin-top:10px;
+width:100%;
+display:flex;
+min-height:100px;
+gap:10px;
+}
+.boxdiv
+{
+background-color:lightgrey;
+width:33%;
+min-height:400px;
+line-height:400px;
+text-align:center;
+justify-content:center;
+}
+
+#footerdiv
+{
+margin-top:10px;
+background-color:lightgrey;
+width:100%;
+min-height:30px;
+line-height:30px;
+text-align:center;
+}
+#main
+{
+width:80%;
+margin:auto;
+font-family:arial;
+}
+
+</style>
+</head>
+<body>
+<div id="main">
+<div id="parent">
+<div id="logdiv">
+Login
+</div>
+<div id="navdiv"> 
+Navigation
+</div>
+</div>
+<div id="headdiv">
+Header/Banner
+</div>
+<div id="introdiv">
+Intro Text Area
+</div>
+<div id="parent2">
+<div class="boxdiv">
+Box1
+</div>
+<div class="boxdiv">
+Box2
+</div>
+<div class="boxdiv">
+Box3
+</div>
+</div>
+<div id="footerdiv">
+Footer
+</div>
+</div>
+</body>
+</html>
