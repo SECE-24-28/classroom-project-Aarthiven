@@ -1,0 +1,136 @@
+<doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Layout3</title>
+
+<style type="text/css">
+
+*
+{
+margin:0px;
+padding:0px;
+
+}
+
+#logdiv
+{
+background-color:lightgrey;
+width:100%;
+min-height:30px;
+line-height:30px;
+padding:20px;
+box-sizing:border-box;
+}
+#main
+{
+margin-top:10px;
+
+width:100%;
+display:flex;
+min-height:100px;
+justify-content:space-between;
+}
+#sidediv
+{
+
+width:40%;
+min-height:40px;
+line-height:40px;
+}
+#navdiv
+{
+
+width:40%;
+min-height:40px;
+line-height:40px;
+
+}
+
+#parent1
+{
+
+width:40%;
+min-height:100px;
+display:flex;
+flex-direction:column;
+}
+
+
+#parent
+{
+width:100%;
+min-height:100px;
+justify-content:space-between;
+display:flex;
+flex-direction:column;
+}
+#Headdiv
+{
+margin-bottom:10px;
+background-color:lightgrey;
+width:100%;
+min-height:80px;
+line-height:80px;
+text-align:center;
+}
+#bodydiv
+{
+background-color:lightgrey;
+width:100%;
+min-height:400px;
+line-height:400px;
+text-align:center;
+}
+#footerdiv
+{
+margin-top:10px;
+background-color:lightgrey;
+width:100%;
+min-height:80px;
+line-height:80px;
+text-align:center;
+}
+#full
+{
+width:60%;
+margin:auto;
+font-family:arial;
+}
+
+
+</style>
+</head>
+<body>
+<div id="full">
+<div id="logdiv">
+Login
+</div>
+<div id="main">
+<div id="parent1">
+
+<div id="sidediv">
+Sidebar 
+</div>
+<div id="navdiv">
+Navigation 
+</div>
+
+</div>
+<div id="parent">
+<div id="Headdiv">
+Header / Banner
+</div>
+<div id="bodydiv">
+Body Area
+</div>
+</div>
+</div>
+
+<div id="footerdiv">
+Footer
+</div>
+</div>
+
+</body>
+</html>
