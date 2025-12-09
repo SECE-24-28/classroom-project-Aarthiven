@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <style>
+        
+    body, html 
+    {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+    }
+
+    * 
+    {
+    box-sizing: border-box;
+    }
+        #parent
+        {
+            min-height:80px;
+            width:100%;
+            background-color:#2E4052;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+
+        }
+        #box1
+        {
+            width:50%;
+             min-height:30px;
+            line-height: 30px;
+            display:flex;
+            color:white;
+            padding:20px;
+            box-sizing:border-box;
+            font-size:20px;
+
+        }
+        #box2
+        {
+            font-size:20px;
+            min-height:70px;
+            line-height:70px;
+            width:100%;
+            display:flex;
+            justify-content:space-between;
+            
+        }
+        #u{
+            width:50%;
+            min-height:50px;
+            display:flex;
+            flex-direction:column;
+
+
+        }
+         
+        #parent2
+        {
+            background-color:#A5C9CA;
+            min-height:80px;
+            width:100%;
+            display:flex;
+            flex-direction:row;
+            gap:20px;
+        }
+        #u1
+        {
+            min-height:100px;
+            line-height:100px;
+            font-size:30px;
+            text-align:center;
+
+
+        }
+        #a2
+        {
+            margin-top:50px;
+            width:40%;
+            min-height:70px;
+            margin-left:150px;
+            display:flex;
+
+        }
+        #a3
+        {
+            width:100%;
+            min-height:80px;
+            display:flex;
+            flex-direction:column;
+        }
+        #a4
+        {
+            margin-top:20px;
+            font-size:25px;
+            width:100%;
+            min-height:30px;
+            line-height:30px;
+            margin-bottom:20px;
+        }
+        #a5
+        {
+            width:80%;
+            font-size:20px;    
+            margin-bottom:30px;
+        }
+        #parent3
+        {
+            width:100%;
+            min-height:100px;
+            display:flex;
+            flex-direction:column;
+            background-color:#2E4052;
+            color:white;
+        }
+        #table1
+        {
+            width:100%;
+            min-height:100px;
+            line-height:100px;
+            text-align:center;
+            font-size:25px;
+            box-sizing:border-box;
+           
+        }
+        #table2
+        {   
+            margin-left:400px; 
+            font-size:20px;
+            margin-top:10px;
+            width:100%;
+            min-height:50px;
+            line-height:50px;
+            margin-bottom:30px;
+            box-sizing:border-box;
+            padding:30px;
+
+
+        }
+        #parent8
+        {
+            background-color:#A5C9CA;
+            width: 100%;
+            min-height:100px;
+            display:flex;
+            flex-direction:column;
+        }
+        #table3
+        {
+            width: 100%;
+            min-height:50px;
+            line-height:50px;
+            text-align:center;
+            font-size:25px;
+        }
+         #table4
+        {  
+             margin-left:550px;   
+            font-size:20px;
+            margin-top:10px;
+            width:100%;
+            min-height:50px;
+            line-height:50px;
+            margin-bottom:30px;
+            box-sizing:border-box;
+            padding:30px;
+        }
+        #cetpat
+        {
+            width:100%;
+            background-color:#2E4052;
+            min-height:100px;
+            display:flex;
+            flex-direction:column;
+        }
+        #certificate
+        {
+            width:100%;
+            font-size:25px;
+            color:white;
+            min-height:100px;
+            line-height:100px;
+            text-align:center;
+        }
+        #images1
+        {
+            width:100%;
+            min-height:200px;
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+        }
+        .imag
+        {
+            width:23%;
+            min-height:30px;
+            line-height:30px;
+            padding:20px;
+            box-sizing: border-box;
+        }
+        .imag:hover{
+            transform:scale(1.1);
+        }
+        .imag{
+             background-color:#2E4052;
+            transition: transform 2s ease-out;
+        }
+        #images2
+        {
+            width:100%;
+            min-height:200px;
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            margin-bottom:20px;
+        }
+        #contact
+        {
+            width:100%;
+            background-color:#A5C9CA;
+            min-height:200px;
+            display:flex;
+            flex-direction: column;
+
+        }
+        #name
+        {
+             width:100%;
+             min-height:100px;
+             line-height:100px;
+             font-size:25px;
+             text-align:center;
+
+        }
+        #name1
+        {
+             width:100%;
+             min-height:200px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+        .tr
+        {
+            width:100%;
+            min-height: 30px;
+            line-height: 30px;
+            font-size:20px;
+            text-align: center;
+            margin-bottom:30px;
+        }
+        .white-link 
+        {
+           color: white;
+           text-decoration: none;
+        }     
+       .link
+       {
+        color: rgb(207, 25, 55);
+           text-decoration: none;
+       }
+       .imag .i3:hover{
+           border: 5px solid rgb(45, 187, 175);
+           transform:scale(1.1);
+       }
+
+    </style>
+</head>
+</html>
+<body>
+<div id="parent">
+    <div id ="box1"><b>AARTHI V</b></div>
+    <div id="box2">
+         <div class="b1"><a href="#t4" class="white-link"><b>ABOUT ME</b></a></div>
+        <div class="b1"><a href="#t" class="white-link"><b>QUALIFICATIONS</b></a></div>
+        <div class="b1"><a href="#that" class="white-link"><b>SKILLS</b></a></div>
+        <div class="b1"><a href="#this" class="white-link"><b>CERTIFICATIONS</b></a></div>
+        <div class="b1"><a href="#th1" class="white-link"><b>CONTACT</b></a></div>
+
+    </div>
+</div>
+<div id ="parent2">
+    <div id="u">
+    <div id="a2">
+        <img src="aarthi.jpg" width="200px" height="200px">
+    </div>
+    <div id="u1">
+        <b>Engineer Aspirant</b>
+    </div>
+    </div>
+
+    
+    <div id="a3">
+     <div id="a4">
+        <section id="t4"></section>
+        <b>ABOUT ME</b>
+     </div>
+     <div id="a5">
+        <p>I am<b> <em>Aarthi</em></b>, a motivated and curious learner with a strong passion for technology, programming, and problem-solving. I love exploring new concepts, creating small but meaningful projects, and understanding how things work beneath the surface. Whether I am writing logic in C++, designing simple web pages, or analyzing real-world problems, I enjoy the process of learning and building solutions that make sense.<br><br> I believe in improving myself step by step, taking time to understand concepts clearly, and staying consistent with my efforts. Curiosity drives me to ask questions, experiment, and keep learning, while dedication pushes me to complete what I start with confidence and clarity.
+           I value hard work, honesty, and creativity, and I always try to approach challenges with a positive and open mindset. Each task I take on helps me grow, not just as a student but also as a person who wants to keep evolving.<br><br> My goal is to become a skilled developer who builds projects that are practical, user-friendly, and impactful. I am continuously working on enhancing my technical skills, improving my problem-solving abilities, and becoming better than I was yesterday. Learning is something I truly enjoy, and I am excited about the path I am building for myself in the world of technology.</p>
+     </div>
+    </div> 
+</div>
+
+<section id="t"></section>
+   
+    <div id="parent3">
+       <div id="table1">
+        <b>QUALIFICATIONS</b>
+       </div> 
+       <div id="table2">
+        <table border="4">
+           <tr>
+            <th>S.No</th>
+            <th>Qualifications</th>
+            <th>Institutions</th>
+            <th>Percentage</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>SSLC</td>
+            <td>Cambridge Matric Higher Secondary School</td>
+            <td>95.8%</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>HSC</td>
+            <td>Cambridge Matric Higher Secondary School</td>
+            <td>93.8%</td>
+           </tr>
+          <tr>
+            <td>3</td>
+            <td>UG</td>
+            <td>Sri Eshwar College of Engineering</td>
+            <td>92.3%</td>
+           </tr>
+        </table>
+       </div>
+    </div>
+    <section id="that"></section>
+    <div id="parent8">
+        <div id="table3">
+            <b>SKILLS</b>
+        </div>
+        <div id="table4">
+            <table border="5">
+           <tr>
+            <th>S.No</th>
+            <th>Skills</th>
+            <th>Level</th>
+           </tr>
+           <tr>
+            <td>1</td>
+            <td>C programming</td>
+            <td>Basic to Advance</td>
+           </tr>
+           <tr>
+            <td>2</td>
+            <td>C++ programming</td>
+            <td>Basic to Advance</td>
+           </tr>
+          <tr>
+            <td>3</td>
+            <td>Python</td>
+            <td>Basic to Advance</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>Java</td>
+            <td>Basic to Advance</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>HTML & CSS</td>
+            <td>Basic to Advance</td>
+           </tr>
+           <tr>
+            <td>6</td>
+            <td>DBMS</td>
+            <td>Basic to Advance</td>
+           </tr>
+        </table>
+
+        </div>
+    </div>
+     <section id="this"></section>
+
+    <div id="cetpat">
+        <div id="certificate">
+           
+        <b>CERTIFICATES</b>
+        </div>
+        <div id="images1">
+        <div class="imag"><img src="c++.jpg" class="i3" width="300px" height="200px"></div>
+        <div class="imag"><img src="html.jpg" class="i3" width="300px" height="200px"></div>
+        <div class="imag"><img src="python.jpg" class="i3" width="300px" height="200px"></div>
+        </div>
+        <div id="images2">
+        <div class="imag" ><img src="dbms certificate.jpg"  class="i3" width="300px" height="200px"></div>
+        <div class="imag"><img src="dbms.png" class="i3" width="300px" height="200px"></div>
+        <div class="imag"><img src="java.png" class="i3" width="300px" height="200px"></div>
+        </div>
+    </div>
+     <section id="th1"></section>
+    <div id="contact">
+        <div id="name"><b>CONTACTS</b></div>
+        <div id="name1">
+            <div class="tr">Phone  -- 9042060127</div>
+            <div class="tr">Address -- Tirunelveli</div>
+            <div class="tr">Email -- <a href ="https://www.google.com/" class="link">sivaaarthivenkat@gmail.com</a> </div>
+            <div class="tr"><a href="https://www.linkedin.com/in/aarthi-v-62865a324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link">Linkedin</a></div>
+        </div>
+
+    </div>
+    
+   
+
+</body>
+</html>
